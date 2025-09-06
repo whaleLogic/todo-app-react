@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Learn React state",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Map UI to HTTP",
+      "completed": true
+    },
+    {
+      "id": "af1a",
+      "title": "fuck",
+      "completed": false
+    },
+    {
+      "id": "5cd2",
+      "title": "shit",
+      "completed": false
+    },
+    {
+      "id": "b698",
+      "title": "balls",
+      "completed": false
+    },
+    {
+      "id": "d24e",
+      "title": "it works!",
+      "completed": false
+    },
+    {
+      "id": "fa99",
+      "title": "df",
+      "completed": false
+    }
+  ]
+}
