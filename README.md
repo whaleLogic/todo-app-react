@@ -1,6 +1,6 @@
 # 📝 React Todo App Tutorial 
 
-> Goal: build a **minimal, production-grade** Todo app in React (JavaScript), while continuously explaining **what state, props and components are**, and **how HTTP methods** map to UI actions. 
+> Goal: build a **minimal** Todo app in React (JavaScript) and explain **what state, props and components are**, and **how HTTP methods** map to UI actions. 
 ---
 
 ## 🧠 Mental Model First
