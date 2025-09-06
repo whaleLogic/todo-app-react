@@ -134,12 +134,17 @@ We’ll keep it simple but scalable:
 ### Component tree & data flow
 
 ```mermaid
-flowchart TD
-  A[App (state: todos)] -->|props: todos, callbacks| L[TodoList]
-  A -->|props: onAdd| F[TodoForm]
-  L -->|props: todo, callbacks| I[TodoItem]
-  I -->|onToggle/onEdit/onDelete| A
-  F -->|onAdd| A
+flowchart LR
+  A[TODO App - State]
+  F[__Submit Form__ - TodoForm]
+  L[__Render__ - TodoList]
+  I[__TodoItem__ - *Create/Update/Delete* ]
+
+  A --> F
+  A --> L
+  L --> I
+  I --> A
+  F --> A
 ```
 
 
